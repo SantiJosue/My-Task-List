@@ -14,4 +14,7 @@ title:string= "My Task List";
 
   }
 
+  toggleAddTask(){
+    console.log("toggleAddTask")
+  }
 }
