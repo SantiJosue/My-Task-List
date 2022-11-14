@@ -6,8 +6,8 @@ import { HttpClientModule } from '@angular/common/http'
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ButtonComponent } from './components/button/button.component';
-import { TaskComponent } from './components/task/task.component';
-import { TaskItemComponent } from './components/task-item/task-item.component';
+import { TasksComponent } from './components/tasks/tasks.component';
+import { TasksItemComponent } from './components/tasks-item/tasks-item.component';
 
 
 @NgModule({
@@ -15,8 +15,8 @@ import { TaskItemComponent } from './components/task-item/task-item.component';
     AppComponent,
     HeaderComponent,
     ButtonComponent,
-    TaskComponent,
-    TaskItemComponent
+    TasksComponent,
+    TasksItemComponent
   ],
   imports: [
     BrowserModule,

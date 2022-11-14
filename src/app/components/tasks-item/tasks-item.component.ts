@@ -4,11 +4,11 @@ import {TASKS} from "../../mock-tasks"
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
-  selector: 'app-task-item',
-  templateUrl: './task-item.component.html',
-  styleUrls: ['./task-item.component.css']
+  selector: 'app-tasks-item',
+  templateUrl: './tasks-item.component.html',
+  styleUrls: ['./tasks-item.component.css']
 })
-export class TaskItemComponent implements OnInit {
+export class TasksItemComponent implements OnInit {
 @Input() task: Task = TASKS[0];
 faTimes = faTimes;
   constructor() { }
