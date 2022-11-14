@@ -23,6 +23,12 @@
             "text": "Leer mi libro favorito",
             "day": "Agosto 5 a las 21:00",
             "reminder": false
+        },
+        {
+            "id": 5,
+            "text": "Ir a correr",
+            "day": "Agosto 6 a las 8:00",
+            "reminder": false
         }
     ]
 }
